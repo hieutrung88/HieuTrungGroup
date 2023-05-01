@@ -30,7 +30,7 @@ const Index = () => {
               {/*=== Hero Content ===*/}
               <div className="hero-content text-white">
                 <span className="tag-line wow fadeInDown" data-wow-delay=".5s">
-                  Business Agency
+                Sustainable Development
                 </span>
                 <h1 className="wow fadeInUp" data-wow-delay=".7s">
                 Transforming businesses for a digital tomorrow
