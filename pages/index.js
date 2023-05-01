@@ -30,18 +30,18 @@ const Index = () => {
               {/*=== Hero Content ===*/}
               <div className="hero-content text-white">
                 <span className="tag-line wow fadeInDown" data-wow-delay=".5s">
-                Sustainable Development
+                Thay đổi doanh nghiệp
                 </span>
                 <h1 className="wow fadeInUp" data-wow-delay=".7s">
-                Transforming businesses for a digital tomorrow
+                Cho một ngày mai kỹ thuật số
                 </h1>
                 <div className="hero-button wow fadeInUp" data-wow-delay=".9s">
                   <Link legacyBehavior href="/about">
-                    <a className="main-btn btn-red">Explore More</a>
+                    <a className="main-btn btn-red">Xem chi tiết</a>
                   </Link>
                   <Link legacyBehavior href="/services">
                     <a className="main-btn filled-btn filled-white">
-                      Our Services
+                      Dịch vụ
                     </a>
                   </Link>
                 </div>
