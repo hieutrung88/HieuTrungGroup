@@ -16,7 +16,7 @@ const Index = () => {
       >
         <div className="shape shape-one">
           <span>
-            <img src="assets/images/hero/hero-one_shape-1.png" alt="" />
+            {/* <img src="assets/images/hero/hero-one_shape-1.png" alt="" /> */}
           </span>
         </div>
         <div className="shape shape-two">
