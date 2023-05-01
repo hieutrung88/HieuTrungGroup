@@ -33,7 +33,7 @@ const Index = () => {
                   Business Agency
                 </span>
                 <h1 className="wow fadeInUp" data-wow-delay=".7s">
-                  We Provide Digital Business Solutions
+                Transforming businesses for a digital tomorrow
                 </h1>
                 <div className="hero-button wow fadeInUp" data-wow-delay=".9s">
                   <Link legacyBehavior href="/about">
