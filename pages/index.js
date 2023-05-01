@@ -3,10 +3,22 @@ import Slider from "react-slick";
 import Counter from "../src/components/Counter";
 import Layout from "../src/layout/Layout";
 import { testimonialSliderThree } from "../src/sliderProps";
-const Index3 = () => {
+const OnePageIndex3 = () => {
+  const singleMenus = [
+    { name: "Home", href: "onepage-home" },
+    { name: "About", href: "onepage-about" },
+    { name: "Services", href: "onepage-service" },
+    { name: "Features", href: "onepage-features" },
+    { name: "Testimonial", href: "onepage-testimonial" },
+  ];
   return (
-    <Layout header={3} footer={3} extraBodyCls="home-three-dark">
-      <section className="banner-three p-r z-1">
+    <Layout
+      header={3}
+      footer={3}
+      extraBodyCls="home-three-dark"
+      singleMenus={singleMenus}
+    >
+      <section className="banner-three p-r z-1" id="onepage-home">
         <div className="shape shape-one animate-float-x">
           <span>
             <img src="assets/images/shape/shape-5.png" alt="shape" />
@@ -155,7 +167,7 @@ const Index3 = () => {
       </section>
       {/*====== End Fact Section ======*/}
       {/*====== Start About section ======*/}
-      <section className="about-section pt-90 pb-80">
+      <section className="about-section pt-90 pb-80" id="onepage-about">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -232,7 +244,7 @@ const Index3 = () => {
       </section>
       {/*====== End Features section ======*/}
       {/*====== Start Service section ======*/}
-      <section className="service-section pb-50">
+      <section className="service-section pb-50" id="onepage-service">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-12">
@@ -374,7 +386,7 @@ const Index3 = () => {
       </section>
       {/*====== End Service section ======*/}
       {/*====== Start Features section ======*/}
-      <section className="features-section-two">
+      <section className="features-section-two" id="onepage-features">
         <div className="container">
           <div className="features-wrapper wow fadeInDown">
             <div className="row">
@@ -440,7 +452,10 @@ const Index3 = () => {
       </section>
       {/*====== End Features section ======*/}
       {/*====== Start Testimonial section ======*/}
-      <section className="testimonial-section pt-130 pb-80">
+      <section
+        className="testimonial-section pt-130 pb-80"
+        id="onepage-testimonial"
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -665,4 +680,4 @@ const Index3 = () => {
     </Layout>
   );
 };
-export default Index3;
+export default OnePageIndex3;

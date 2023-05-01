@@ -3,22 +3,10 @@ import Slider from "react-slick";
 import Counter from "../src/components/Counter";
 import Layout from "../src/layout/Layout";
 import { testimonialSliderThree } from "../src/sliderProps";
-const OnePageIndex3 = () => {
-  const singleMenus = [
-    { name: "Home", href: "onepage-home" },
-    { name: "About", href: "onepage-about" },
-    { name: "Services", href: "onepage-service" },
-    { name: "Features", href: "onepage-features" },
-    { name: "Testimonial", href: "onepage-testimonial" },
-  ];
+const Index3 = () => {
   return (
-    <Layout
-      header={3}
-      footer={3}
-      extraBodyCls="home-three-dark"
-      singleMenus={singleMenus}
-    >
-      <section className="banner-three p-r z-1" id="onepage-home">
+    <Layout header={3} footer={3} extraBodyCls="home-three-dark">
+      <section className="banner-three p-r z-1">
         <div className="shape shape-one animate-float-x">
           <span>
             <img src="assets/images/shape/shape-5.png" alt="shape" />
@@ -167,7 +155,7 @@ const OnePageIndex3 = () => {
       </section>
       {/*====== End Fact Section ======*/}
       {/*====== Start About section ======*/}
-      <section className="about-section pt-90 pb-80" id="onepage-about">
+      <section className="about-section pt-90 pb-80">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -244,7 +232,7 @@ const OnePageIndex3 = () => {
       </section>
       {/*====== End Features section ======*/}
       {/*====== Start Service section ======*/}
-      <section className="service-section pb-50" id="onepage-service">
+      <section className="service-section pb-50">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-12">
@@ -386,7 +374,7 @@ const OnePageIndex3 = () => {
       </section>
       {/*====== End Service section ======*/}
       {/*====== Start Features section ======*/}
-      <section className="features-section-two" id="onepage-features">
+      <section className="features-section-two">
         <div className="container">
           <div className="features-wrapper wow fadeInDown">
             <div className="row">
@@ -452,10 +440,7 @@ const OnePageIndex3 = () => {
       </section>
       {/*====== End Features section ======*/}
       {/*====== Start Testimonial section ======*/}
-      <section
-        className="testimonial-section pt-130 pb-80"
-        id="onepage-testimonial"
-      >
+      <section className="testimonial-section pt-130 pb-80">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -680,4 +665,4 @@ const OnePageIndex3 = () => {
     </Layout>
   );
 };
-export default OnePageIndex3;
+export default Index3;
